@@ -1,4 +1,14 @@
 
+  body{
+    background: url(../images/png-transparent-medieval-european-border-background-gradient-color-european-style-complicated-thumbnail.png);
+    background-size: cover;
+    height: 100px;
+    image-rendering: optimizeQuality;
+    text-align: center;
+    padding-top: 20em;
+    padding-right: 2em;
+    }
+
 
 /*navigation styling*/
 

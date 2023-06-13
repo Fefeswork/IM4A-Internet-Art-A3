@@ -1,0 +1,32 @@
+body{
+    background: url();
+    background-size: cover;
+    height: 100px;
+    image-rendering: optimizeQuality;
+    text-align: center;
+    padding-top: 20em;
+    padding-right: 2em;
+    }
+
+
+/* this code below is for the link which lead to the home page*/
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Becker;
+    color: black;
+    animation: blink-text 1.9s linear infinite;
+    font-size: 2em;
+   }
+
+   @keyframes blink-text{
+    0% {
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+    }
+    100% {
+     opacity: 0;
+    }
+}

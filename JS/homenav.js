@@ -2,7 +2,7 @@
 
 const navData = [
     { title: "Home", link: "./home.html"},
-    { title: "Theory", link: "./Theory/theory.html"},
+    { title: "Theory", link: "https://fefeswork.github.io/IM4A-Internet-Art-A3/Theory/theory.html"},
     { title: "Internet Art", link: "../Internet Art/internetgame.html"},
     { title: "Design", link: "../Design/design.html"},
 ]

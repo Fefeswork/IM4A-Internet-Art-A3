@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collect the Treasure</title>
-    <link rel="stylesheet" href="../CSS/game.css">
+    <title>Internet Art</title>
+
     <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/game.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
 
     
 </head>
 <body>
+    
+     <!--------------------------------------------This is for the animated side navigation------------------------------------------------------->
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../home.html">HOME</a>
+        <a href="../Design/design.html">DESIGN</a>
+        <a href="../Theory/theory.html">THEORY</a>
+        <a href="../Internet Art/internetgame.html">INTERNET ART</a>
+      </div>
+
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()">Explore</span>
+    
+        <!---------------------------------This is for the internet game code------------------------------>
     <h1>Collect the Treasure</h1>
     <h2>Beware of the pirates!!!</h2>
     <h3 id="score">Score: 0</h3>
@@ -18,6 +34,7 @@
     </div>
 
     <script src="../JS/game.JS"></script>
+    <script src="../JS/sidenav.js"></script>
 
 </body>
 </html>

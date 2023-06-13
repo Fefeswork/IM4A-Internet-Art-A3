@@ -1,0 +1,59 @@
+/*styling for the css cards- and blogs cards as well*/
+.big-heading{
+    color: rgb(255, 252, 235);
+    font-size: 80px;
+    line-height: 80px;
+    margin: 130px 80px 0px;
+    text-align: center;
+  }
+  #blog-heading{
+    color: rgb(255, 252, 235);
+    font-size: 30px;
+    line-height: 80px;
+    margin: 0px 0px; 
+    text-align: center;
+  }
+
+  .blog-container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .blog-section {
+    background: rgb(1, 48, 38);
+    border: rgb(203, 229, 142) 2px solid;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  .blog-section:hover {
+    background: rgb(32, 29, 33); /*rgb(161, 206, 63);*/
+    border: rgb(203, 229, 142) 2px solid;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+    animation: pulse;
+    animation-duration: 1s;
+  }
+  
+  .blog-figure{
+    margin: 0px 30% 10px;
+  }
+  
+  .blog-link-text{
+    color: rgb(253, 249, 223);
+    text-decoration: none;
+  }
+  
+  #blog-heading-one{
+    color: rgb(253, 249, 223);
+    font-size: 35px;
+    margin: 90px 260px 0px;
+    padding: 20px;
+  }

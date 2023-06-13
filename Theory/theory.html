@@ -5,27 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theory</title>
 
-    <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/csscards.css">
 
 </head>
 <body>
     <!--------------------------------------------This is for the animated side navigation------------------------------------------------------->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="design.html">About</a>
-        <a href="">Services</a>
-        <a href="">Clients</a>
-        <a href="">Contact</a>
+        <a href="home.html">HOME</a>
+        <a href="../Design/design.html">DESIGN</a>
+        <a href="../Theory/theory.html">THEORY</a>
+        <a href="../Internet Art/internetgame.html">INTERNET ART</a>
       </div>
-      
-      <!-- Use any element to open the sidenav -->
-      <span onclick="openNav()">Explore</span>
+
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()">Explore</span>
+    
       
       <!-- main content of the page -->
-      <div id="main">
-        
-      </div>
+      <main>
+        <section>
+          <h1 class="big-heading">Theory</h1>
+          <!-------------------------------------------------BLOG POSTS----------------------------------------------------->
+          <div class="blog-container">
+            <div class="blog-section">
+              <figure class="figure-responsive">
+                <a class="blog-link-text" href="blog_1.html">
+                  <h2 id="blog-heading">Blogs</h2>
+                  <img
+                    class="img-responsive"
+                    src="../src/images/emote_hey500x500.png"
+                    alt="A chibi emote of Keightyrose waving hello."
+                /></a>
+              </figure>
+            </div>
+  
+            <!-------------------------------------------------INTERNET ART PREP----------------------------------------------------->
+            <div class="blog-section">
+              <figure class="figure-responsive">
+                <a class="blog-link-text" href="blog_2.html">
+                  <h2 id="blog-heading">Internet Art Prep</h2>
+                  <img
+                    class="img-responsive"
+                    src="../src/images/emote_popcorn500x500.png"
+                    alt="A chibi emote of Keightyrose eating popcorn."
+                  />
+                </a>
+              </figure>
+            </div>
+        </div>
+    </section>
+  </main>
+
+    
 
       <script src="../JS/sidenav.js"></script>
 </body>

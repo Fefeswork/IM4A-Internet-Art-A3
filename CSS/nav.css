@@ -36,7 +36,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color:wheat;
   }
   
   /* Position and style the close button (top right corner) */
@@ -52,6 +52,15 @@
   #main {
     transition: margin-left .5s;
     padding: 20px;
+  }
+  
+  .openNav{
+    display: inline;
+  }
+
+  i{
+    padding-top: 2em;
+    padding-left: 3em;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

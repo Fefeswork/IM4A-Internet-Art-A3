@@ -52,14 +52,39 @@ text-align: center;
 
 /******************************************IxD DOCUMENT***********************************************************/
 
-.content-mapping{
-padding-top: 7em;
-color: wheat;
+article{
+  background-color: rgba(255, 255, 255, 0.608);
 }
+
+.content-mapping{
+padding-top: 2em;
+color: black;
+}
+
+.va-notes{
+  padding-top: 2em;
+  color: black;
+  }
+
+  .interface{
+    padding-top: 2em;
+    color: black;
+    }
+
+    .references{
+      padding-top: 2em;
+      color: black;
+      }
 
 h3{
   font-family: Becker;
 font-size: 20px;
+text-align: center;
+}
+
+h4{
+  font-family: Becker;
+font-size: 13px;
 text-align: center;
 }
 

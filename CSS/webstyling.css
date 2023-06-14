@@ -49,11 +49,16 @@ text-align: center;
     opacity: 1;
     width: 80%;
 }
+.essay{
+  background-color: rgba(255, 255, 255, 0.567);
+  color:  rgb(0, 0, 0);
+  text-align: center;
+}
 
 /******************************************IxD DOCUMENT***********************************************************/
 
 article{
-  background-color: rgba(255, 255, 255, 0.608);
+  text-align: center;
 }
 
 .content-mapping{

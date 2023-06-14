@@ -22,14 +22,14 @@ body{
 
     .intro{
       padding-top: 5em;
-      padding-left: 10em;
+      padding-left: 15em;
       font-family: Becker;
     }
 
     .img-holder{
       padding-top: 2em;
-      padding-right:5em;
-      padding-left: 11em;
+      padding-right:8em;
+      padding-left: 15em;
     }
 
     img{
@@ -43,7 +43,7 @@ body{
     font-size: 30px;
     font-family: Becker;
     line-height: 80px;
-    margin: 50px 150px 150px;
+    margin: 150px 150px 50px;
     line-height: 80px;
 }
 

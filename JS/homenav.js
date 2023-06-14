@@ -24,3 +24,13 @@ for(var i = 0; i < navData.length; i++){
 }
 
 navElement.appendChild(list);
+
+//Dev notes
+
+// Navigation data, you are essentially using relative referenicng for the links//
+
+//const navData = [
+   //{ title: "Home", link: "./home.html"},
+   //{ title: "Theory", link: "../Theory/theory.tml"},
+    //{ title: "Internet Art", link: "../Internet Art/internetgame.html"},
+    //{ title: "Design", link: "../Design/desin.html"},

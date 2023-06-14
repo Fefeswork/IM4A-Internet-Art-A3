@@ -1,14 +1,37 @@
 
-  body{
-    background: url(https://e0.pxfuel.com/wallpapers/612/956/desktop-wallpaper-aot-background-references-ideas-attack-on-titan-attack-on-titan-anime-attack-on-titan-aesthetic-attack-on-titan-scenery.jpg);
+ /* adding custom font not found on google fonts*/
+
+@font-face {
+  font-family: 'Avquest';
+  src: url(../CSS/Fonts/Avqest.ttf);
+}
+@font-face {
+  font-family: 'Becker';
+  src: url(../CSS/Fonts/Becker.ttf);
+}
+ 
+/* styling for body*/
+
+ body{
+    background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
     background-size: cover;
-    height: 100px;
+    height: 100%;
+    background-repeat: no-repeat;
     image-rendering: optimizeQuality;
     text-align: center;
     padding-top: 20em;
     padding-right: 2em;
     }
 
+    .img-holder{
+      padding-right:10em;
+      margin-right: auto;
+    }
+    img{
+      width: 80%;
+      opacity: 1;
+
+    }
 
 /*navigation styling*/
 

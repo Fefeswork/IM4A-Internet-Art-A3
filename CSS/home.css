@@ -75,7 +75,7 @@ nav ul {
 nav ul li {
     display: block;
     padding-top: 6em;
-    padding-right: 4em;
+    padding-right: 6em;
     margin: 15px 15px 30px;
   }
   
@@ -121,7 +121,7 @@ nav ul li a {
     }
   
     nav ul li a {
-      font-size: 25px;
+      font-size: 40px;
       color: rgb(203, 229, 142);
     }
   

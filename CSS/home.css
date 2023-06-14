@@ -73,13 +73,14 @@ nav ul {
   
 nav ul li {
     display: block;
-    padding-top: 5em;
+    padding-top: 6em;
+    padding-right: 4em;
     margin: 15px 15px 30px;
   }
   
 nav ul li a {
     margin-right: 30px;
-    color: white;
+    color: black;
     font-family: Becker;
     text-decoration: none;
   }

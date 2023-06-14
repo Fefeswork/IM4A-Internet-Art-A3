@@ -1,10 +1,10 @@
 //production nav
 
 const navData = [
-    { title: "Home", link: "./home.html"},
+    { title: "Home", link: "https://fefeswork.github.io/IM4A-Internet-Art-A3/home.html"},
     { title: "Theory", link: "https://fefeswork.github.io/IM4A-Internet-Art-A3/Theory/theory.html"},
-    { title: "Internet Art", link: "../Internet Art/internetgame.html"},
-    { title: "Design", link: "../Design/design.html"},
+    { title: "Internet Art", link: "https://fefeswork.github.io/IM4A-Internet-Art-A3/Internet Art/internetgame.html"},
+    { title: "Design", link: "https://fefeswork.github.io/IM4A-Internet-Art-A3/Design/design.html"},
 ]
 
 

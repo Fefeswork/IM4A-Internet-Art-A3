@@ -19,29 +19,33 @@
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
     text-align: center;
-    padding-top: 20em;
-    padding-right: 2em;
+
     }
 
     .img-holder{
+      padding-top: 10em;
       padding-right:10em;
-      margin-right: auto;
+      padding-left: 5em;
+  
     }
-    img{
-      width: 80%;
-      opacity: 1;
 
+    img{
+      width: 60%;
+      opacity: 0.8;
     }
 
 /*navigation styling*/
 
 #logo {
-    color: rgb(203, 229, 142);
+    color: black;
     font-size: 30px;
+    font-family: Becker;
     line-height: 80px;
-    margin: 50px 150px 30px;
+    margin: 50px 150px 150px;
+    padding-left: 7em;
     line-height: 80px;
 }
+
 
 nav {
     position: fixed;
@@ -69,12 +73,14 @@ nav ul {
   
 nav ul li {
     display: block;
+    padding-top: 5em;
     margin: 15px 15px 30px;
   }
   
 nav ul li a {
     margin-right: 30px;
-    color: rgb(203, 229, 142);
+    color: white;
+    font-family: Becker;
     text-decoration: none;
   }
   

@@ -1,12 +1,37 @@
+/* adding custom font not found on google fonts*/
+
+@font-face {
+    font-family: 'Avquest';
+    src: url(../CSS/Fonts/Avqest.ttf);
+}
+@font-face {
+    font-family: 'Becker';
+    src: url(../CSS/Fonts/Becker.ttf);
+  }
+
+
+
+
 body{
-    background: url(https://img.freepik.com/premium-photo/castle-cliff-generative-ai_356060-4780.jpg);
+    background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
     image-rendering: optimizeQuality;
     text-align: center;
-    padding-top: 20em;
+    padding-top: 10em;
     padding-right: 2em;
+    }
+
+    h1{
+        font-size: 50px;
+        font-family: Becker;
+        color: aliceblue;
+        padding-left: 1em;
+    }
+
+    .blink-style{
+        padding-top:10em;
     }
 
 
@@ -15,9 +40,10 @@ a{
     text-align: center;
     text-decoration: none;
     font-family: Becker;
-    color: black;
+    color: white;
     animation: blink-text 1.9s linear infinite;
     font-size: 2em;
+    padding-left: 1em;
    }
 
    @keyframes blink-text{

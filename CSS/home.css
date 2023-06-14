@@ -22,13 +22,14 @@ body{
 
     .intro{
       padding-top: 5em;
+      padding-left: 10em;
       font-family: Becker;
     }
 
     .img-holder{
       padding-top: 2em;
-      padding-right:10em;
-      padding-left: 5em;
+      padding-right:5em;
+      padding-left: 11em;
     }
 
     img{

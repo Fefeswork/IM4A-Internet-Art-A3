@@ -1,14 +1,35 @@
+ /* adding custom font not found on google fonts*/
+
+ @font-face {
+  font-family: 'Avquest';
+  src: url(../CSS/Fonts/Avqest.ttf);
+}
+@font-face {
+  font-family: 'Becker';
+  src: url(../CSS/Fonts/Becker.ttf);
+}
+
+body{
+  background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+}
+
 /*styling for the css cards- and blogs cards as well*/
 .big-heading{
-    color: rgb(255, 252, 235);
+    color: black;
     font-size: 80px;
+    font-family: Becker;
     line-height: 80px;
-    margin: 130px 80px 0px;
+    margin: 30px 80px 0px;
     text-align: center;
   }
   #blog-heading{
     color: rgb(255, 252, 235);
     font-size: 30px;
+    font-family: Becker;
     line-height: 80px;
     margin: 0px 0px; 
     text-align: center;

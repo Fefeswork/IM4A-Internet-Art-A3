@@ -12,15 +12,13 @@
  
 /* styling for body*/
 
- body{
-    background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
+body{
+  background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
-    text-align: center;
-
-    }
+}
 
     .intro{
       padding-top: 5em;
@@ -31,7 +29,6 @@
       padding-top: 2em;
       padding-right:10em;
       padding-left: 5em;
-  
     }
 
     img{

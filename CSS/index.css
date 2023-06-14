@@ -16,7 +16,7 @@ body{
     background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 100%;
     image-rendering: optimizeQuality;
     text-align: center;
     padding-top: 10em;

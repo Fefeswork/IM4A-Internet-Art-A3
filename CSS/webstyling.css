@@ -1,1 +1,51 @@
-/*This CSS code is for general styling for the entire website*/
+/* adding custom font not found on google fonts*/
+
+@font-face {
+    font-family: 'Avquest';
+    src: url(../CSS/Fonts/Avqest.ttf);
+  }
+  @font-face {
+    font-family: 'Becker';
+    src: url(../CSS/Fonts/Becker.ttf);
+  }
+ 
+  
+/*This CSS code is for general styling */
+
+body{
+    background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
+      background-size: cover;
+      height: 100%;
+      background-repeat: no-repeat;
+      image-rendering: optimizeQuality;
+  }
+
+  h2{
+font-family: Becker;
+font-size: 40px;
+text-align: center;
+  }
+
+  /*Blogs*/
+
+  /* Container holding the image and the text */
+.blog{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  p{
+  position: absolute;
+  font-family:'Times New Roman', Times, serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+
+  }
+  
+  img{
+    image-rendering: optimizeQuality;
+    opacity: 1;
+    width: 80%;
+}

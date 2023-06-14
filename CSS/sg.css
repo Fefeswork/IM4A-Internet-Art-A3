@@ -1,3 +1,44 @@
+ /* adding custom font not found on google fonts*/
+
+ @font-face {
+  font-family: 'Avquest';
+  src: url(../CSS/Fonts/Avqest.ttf);
+}
+@font-face {
+  font-family: 'Becker';
+  src: url(../CSS/Fonts/Becker.ttf);
+}
+
+body{
+  background: url(https://i.pinimg.com/originals/21/17/7e/21177e4928e9c2e1c2f01510ba315e61.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+}
+
+h1{
+  color: black;
+  font-size: 80px;
+  font-family: Becker;
+  line-height: 80px;
+  margin: 25px 80px 0px;
+  text-align: center;
+}
+
+h2{
+  color: black;
+  font-family: Becker;
+  line-height: 80px;
+  margin: 25px 80px 0px;
+  text-align: center;
+}
+
+.styleguide{
+  position: relative;
+}
+
+
 /* the CSS code below controls the styling fo the image slider*/
 
 * {box-sizing:border-box}
@@ -7,16 +48,17 @@
   max-width: 1000px;
   position: relative;
   margin:auto;
-  padding-right: 11em;
+  padding-top: 2em;
+  padding-right: 10em;
+  padding-left: 20em;
 }
-
 
 /* Hide the images by default */
 .myScreenshots {
   display: none;
-  padding-left: 15em;
+  padding-right: 20em;
+  padding-right: 11em;
 }
-
 
 /* Next & previous buttons */
 .prev, .next {
@@ -24,7 +66,6 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;

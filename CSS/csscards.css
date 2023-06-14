@@ -47,7 +47,7 @@ body{
   }
   
   .blog-section {
-    background: rgb(1, 48, 38);
+    background: rgba(5, 87, 71, 0.807);
     border: rgb(203, 229, 142) 2px solid;
     font-size: 20px;
     padding: 20px;
@@ -77,4 +77,8 @@ body{
     font-size: 35px;
     margin: 90px 260px 0px;
     padding: 20px;
+  }
+
+  img{
+    padding-left: 3em;
   }

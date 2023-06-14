@@ -22,8 +22,13 @@
 
     }
 
+    p{
+      padding-top: 5em;
+      font-family: Becker;
+    }
+
     .img-holder{
-      padding-top: 8em;
+      padding-top: 6em;
       padding-right:10em;
       padding-left: 5em;
   

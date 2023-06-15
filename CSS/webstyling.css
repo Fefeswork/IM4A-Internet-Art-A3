@@ -93,7 +93,7 @@ font-size: 13px;
 text-align: center;
 }
 
-/******************************************IxD DOCUMENT***********************************************************/
+/******************************************IA PREP DOCUMENT***********************************************************/
 
 .row {
   display: flex;
@@ -122,4 +122,12 @@ text-align: center;
 
 .wireframe{
   padding-left: 5em;
+}
+
+.vd-elements{
+  color: white;
+}
+
+.white{
+  color: white;
 }
